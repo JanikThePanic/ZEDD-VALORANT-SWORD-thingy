@@ -1,0 +1,339 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+    ReferencedTextures[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+    ReferencedTextures[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+    ReferencedTextures[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+    ReferencedTextures[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+    ReferencedTextures[5] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+    ReferencedTextures[6] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[31] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Diffuse Wear Power }
+                    ParameterInfos[2] = { Name=Roughness Low/Med }
+                    ParameterInfos[3] = { Name=Adjust Light Specular Levels }
+                    ParameterInfos[4] = { Name=Dynamic Shadow Intensity }
+                    ParameterInfos[5] = { Name=Darkest Probe Value }
+                    ParameterInfos[6] = { Name=Albedo Brightness Medium }
+                    ParameterInfos[7] = { Name=Specular }
+                    ParameterInfos[8] = { Name=Dark Overlay Intensity }
+                    ParameterInfos[9] = { Name=Adjust Dark Specular Levels }
+                    ParameterInfos[10] = { Name=Adjust Light Brightness Levels }
+                    ParameterInfos[11] = { Name=Adjust Dark Brightness Levels }
+                    ParameterInfos[12] = { Name=Wear Tiling }
+                    ParameterInfos[13] = { Name=Brightest Probe Value }
+                    ParameterInfos[14] = { Name=Metallic Low/Med }
+                    ParameterInfos[15] = { Name=Dark Overlay Intensity AO }
+                    ParameterInfos[16] = { Name=Advanced Light Specular Levels }
+                    ParameterInfos[17] = { Name=Emissive Intensity }
+                    ParameterInfos[18] = { Name=Diffuse Wear Amount }
+                    ParameterInfos[19] = { Name=Probe Influence }
+                    ParameterInfos[20] = { Name=Albedo Brightness Low }
+                    ParameterInfos[21] = { Name=Wear Offset X }
+                    ParameterInfos[22] = { Name=Emissive Low/Med }
+                    ParameterInfos[23] = { Name=Mask Low/Med }
+                    ParameterInfos[24] = { Name=Normal Intensity }
+                    ParameterInfos[25] = { Name=Metal }
+                    ParameterInfos[26] = { Name=AO Low/Med }
+                    ParameterInfos[27] = { Name=Specular Low/Med }
+                    ParameterInfos[28] = { Name=Roughness Wear Amount }
+                    ParameterInfos[29] = { Name=Wear Offset Y }
+                    ParameterInfos[30] = { Name=Roughness Wear Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Base Color }
+                    ParameterInfos[1] = { Name=Color 03 }
+                    ParameterInfos[2] = { Name=Color 02 }
+                    ParameterInfos[3] = { Name=Color 04 }
+                    ParameterInfos[4] = { Name=Emissive Color }
+                    ParameterInfos[5] = { Name=Color 01 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Falloff Gradient }
+                    ParameterInfos[1] = { Name=MRS }
+                    ParameterInfos[2] = { Name=Normal }
+                    ParameterInfos[3] = { Name=Albedo }
+                    ParameterInfos[4] = { Name=Alpha Texture }
+                    ParameterInfos[5] = { Name=Decal Texture }
+                    ParameterInfos[6] = { Name=Tilable Wear Texture }
+                    ParameterInfos[7] = { Name=AEM }
+                    ParameterInfos[8] = { Name=Edge Mask Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[31] =
+        {
+            ScalarValues[0] = 0.15
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.3
+            ScalarValues[3] = 0.85
+            ScalarValues[4] = 0.425
+            ScalarValues[5] = 0.4
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.15
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 1.05
+            ScalarValues[11] = 0.35
+            ScalarValues[12] = 1
+            ScalarValues[13] = 4
+            ScalarValues[14] = 0.3
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.6
+            ScalarValues[20] = 1.3
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0.15
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0.6
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=1, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+            TextureValues[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+            TextureValues[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+            TextureValues[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+            TextureValues[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+            TextureValues[5] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+            TextureValues[6] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+            TextureValues[7] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+            TextureValues[8] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+        ReferencedTextures[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+        ReferencedTextures[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+        ReferencedTextures[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+        ReferencedTextures[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+        ReferencedTextures[5] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+        ReferencedTextures[6] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+        Name = Falloff Gradient
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+        Name = MRS
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+        Name = Albedo
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+        Name = Alpha Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+        Name = Decal Texture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+        Name = Tilable Wear Texture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+        Name = AEM
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Decals_DF.Decals_DF'
+        Name = Edge Mask Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[31] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Diffuse Wear Power, Group=None }
+    CollectedScalarParameters[2] = { Value=0.3, Name=Roughness Low/Med, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.85
+        Name = Adjust Light Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.425
+        Name = Dynamic Shadow Intensity
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0.4, Name=Darkest Probe Value, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = Albedo Brightness Medium
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0.15, Name=Specular, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Dark Overlay Intensity, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.1
+        Name = Adjust Dark Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1.05
+        Name = Adjust Light Brightness Levels
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.35
+        Name = Adjust Dark Brightness Levels
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=Wear Tiling, Group=None }
+    CollectedScalarParameters[13] = { Value=4, Name=Brightest Probe Value, Group=None }
+    CollectedScalarParameters[14] = { Value=0.3, Name=Metallic Low/Med, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = Dark Overlay Intensity AO
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0.5
+        Name = Advanced Light Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0, Name=Emissive Intensity, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Diffuse Wear Amount, Group=None }
+    CollectedScalarParameters[19] = { Value=0.6, Name=Probe Influence, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1.3
+        Name = Albedo Brightness Low
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0, Name=Wear Offset X, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Emissive Low/Med, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=Mask Low/Med, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[25] = { Value=0.15, Name=Metal, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=AO Low/Med, Group=None }
+    CollectedScalarParameters[27] = { Value=0.6, Name=Specular Low/Med, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=Roughness Wear Amount, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=Wear Offset Y, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Roughness Wear Power, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Base Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = Color 03
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = Color 02
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = Color 04
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Color 01
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

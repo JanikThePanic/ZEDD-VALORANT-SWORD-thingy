@@ -1,0 +1,281 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+    ReferencedTextures[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+    ReferencedTextures[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+    ReferencedTextures[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+    ReferencedTextures[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+    ReferencedTextures[5] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_DF.Atlas_Sticker_Logo_DF'
+    ReferencedTextures[6] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_MSK.Atlas_Sticker_Logo_MSK'
+    ReferencedTextures[7] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Roughness Low/Med }
+                    ParameterInfos[2] = { Name=Adjust Light Specular Levels }
+                    ParameterInfos[3] = { Name=Dynamic Shadow Intensity }
+                    ParameterInfos[4] = { Name=Darkest Probe Value }
+                    ParameterInfos[5] = { Name=Albedo Brightness Medium }
+                    ParameterInfos[6] = { Name=Specular }
+                    ParameterInfos[7] = { Name=Adjust Dark Specular Levels }
+                    ParameterInfos[8] = { Name=Adjust Light Brightness Levels }
+                    ParameterInfos[9] = { Name=Adjust Dark Brightness Levels }
+                    ParameterInfos[10] = { Name=Wear Tiling }
+                    ParameterInfos[11] = { Name=Brightest Probe Value }
+                    ParameterInfos[12] = { Name=Metallic Low/Med }
+                    ParameterInfos[13] = { Name=Advanced Light Specular Levels }
+                    ParameterInfos[14] = { Name=Emissive Intensity }
+                    ParameterInfos[15] = { Name=Probe Influence }
+                    ParameterInfos[16] = { Name=Albedo Brightness Low }
+                    ParameterInfos[17] = { Name=Wear Offset X }
+                    ParameterInfos[18] = { Name=Emissive Low/Med }
+                    ParameterInfos[19] = { Name=Mask Low/Med }
+                    ParameterInfos[20] = { Name=Metal }
+                    ParameterInfos[21] = { Name=AO Low/Med }
+                    ParameterInfos[22] = { Name=Specular Low/Med }
+                    ParameterInfos[23] = { Name=Roughness Wear Amount }
+                    ParameterInfos[24] = { Name=Wear Offset Y }
+                    ParameterInfos[25] = { Name=Roughness Wear Power }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Emissive Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Falloff Gradient }
+                    ParameterInfos[1] = { Name=Sticker Alpha }
+                    ParameterInfos[2] = { Name=MRS }
+                    ParameterInfos[3] = { Name=Normal }
+                    ParameterInfos[4] = { Name=Albedo }
+                    ParameterInfos[5] = { Name=Param }
+                    ParameterInfos[6] = { Name=AEM }
+                    ParameterInfos[7] = { Name=Sticker }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 0.15
+            ScalarValues[1] = 0.3
+            ScalarValues[2] = 0.85
+            ScalarValues[3] = 0.425
+            ScalarValues[4] = 0.4
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.15
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 1.05
+            ScalarValues[9] = 0.35
+            ScalarValues[10] = 1
+            ScalarValues[11] = 4
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0.6
+            ScalarValues[16] = 1.3
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0.15
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.6
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+            TextureValues[1] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_MSK.Atlas_Sticker_Logo_MSK'
+            TextureValues[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+            TextureValues[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+            TextureValues[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+            TextureValues[5] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+            TextureValues[6] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+            TextureValues[7] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_DF.Atlas_Sticker_Logo_DF'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_DF.Atlas_Sticker_Logo_DF'
+        ReferencedTextures[1] = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+        ReferencedTextures[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+        ReferencedTextures[3] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+        ReferencedTextures[4] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+        ReferencedTextures[5] = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+        ReferencedTextures[6] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+        ReferencedTextures[7] = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_MSK.Atlas_Sticker_Logo_MSK'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Materials/BaseGradient.BaseGradient'
+        Name = Falloff Gradient
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_MSK.Atlas_Sticker_Logo_MSK'
+        Name = Sticker Alpha
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_MRS.generic_MRS'
+        Name = MRS
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/flatnormal.flatnormal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_diff.generic_diff'
+        Name = Albedo
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Weapons_Tilable_Fill_01_MSK.Weapons_Tilable_Fill_01_MSK'
+        Name = Param
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/generic_AEM.generic_AEM'
+        Name = AEM
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Shared/Special_Materials/Zedd/Sticker_Logo/Atlas_Sticker_Logo_DF.Atlas_Sticker_Logo_DF'
+        Name = Sticker
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=0.15, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=Roughness Low/Med, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.85
+        Name = Adjust Light Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.425
+        Name = Dynamic Shadow Intensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.4, Name=Darkest Probe Value, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = Albedo Brightness Medium
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.15, Name=Specular, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.1
+        Name = Adjust Dark Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1.05
+        Name = Adjust Light Brightness Levels
+        Group = None
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.35
+        Name = Adjust Dark Brightness Levels
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=Wear Tiling, Group=None }
+    CollectedScalarParameters[11] = { Value=4, Name=Brightest Probe Value, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=Metallic Low/Med, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0.5
+        Name = Advanced Light Specular Levels
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=0, Name=Emissive Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0.6, Name=Probe Influence, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1.3
+        Name = Albedo Brightness Low
+        Group = None
+    }
+    CollectedScalarParameters[17] = { Value=0, Name=Wear Offset X, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Emissive Low/Med, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Mask Low/Med, Group=None }
+    CollectedScalarParameters[20] = { Value=0.15, Name=Metal, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=AO Low/Med, Group=None }
+    CollectedScalarParameters[22] = { Value=0.6, Name=Specular Low/Med, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=Roughness Wear Amount, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Wear Offset Y, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=Roughness Wear Power, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Emissive Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Atlas_Sticker_Logo_MSK
+    }
+}

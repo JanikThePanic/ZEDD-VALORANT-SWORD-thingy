@@ -1,0 +1,9 @@
+Diffuse=Melee_Atlas_DF
+Normal=Melee_Atlas_NM
+Other[0]=Melee_Atlas_MRS
+Other[1]=Melee_Atlas_AEM
+Other[2]=flatnormal
+Other[3]=generic_AEM
+Other[4]=generic_diff
+Other[5]=generic_MRS
+Other[6]=BaseGradient

@@ -1,0 +1,132 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_DF.Glass_DF'
+    ReferencedTextures[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_NM.Glass_NM'
+    ReferencedTextures[2] = TextureCube4'/Game/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.Ares_HDRI_FirstPersonGlass'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Camera Position Intensity }
+                    ParameterInfos[1] = { Name=brightness }
+                    ParameterInfos[2] = { Name=Clamp Minimum }
+                    ParameterInfos[3] = { Name=Diffuse Tiling }
+                    ParameterInfos[4] = { Name=Glass Lower Bounds }
+                    ParameterInfos[5] = { Name=opacdiv }
+                    ParameterInfos[6] = { Name=Fake Roughness }
+                    ParameterInfos[7] = { Name=Normal Intensity }
+                    ParameterInfos[8] = { Name=Time }
+                    ParameterInfos[9] = { Name=Glass Upper Bounds }
+                    ParameterInfos[10] = { Name=Glass Opacity }
+                    ParameterInfos[11] = { Name=Glass Opacity Solo }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Glass Tint }
+                    ParameterInfos[1] = { Name=Glare Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=HDRI }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0, 1, 0.5, 1, -0.15, 1, 0, 1, 0, 0.1, 1, 0.75 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_NM.Glass_NM'
+            TextureValues[1] = TextureCube4'/Game/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.Ares_HDRI_FirstPersonGlass'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = TextureCube4'/Game/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.Ares_HDRI_FirstPersonGlass'
+        ReferencedTextures[1] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_NM.Glass_NM'
+        ReferencedTextures[2] = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_DF.Glass_DF'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Equippables/_Core/Materials/Textures/Glass_NM.Glass_NM'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = TextureCube4'/Game/Blueprints/LightStudio/HDRI/Weapon/Ares_HDRI_FirstPersonGlass.Ares_HDRI_FirstPersonGlass'
+        Name = HDRI
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Camera Position Intensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=Clamp Minimum, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Diffuse Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=-0.15, Name=Glass Lower Bounds, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=opacdiv, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Fake Roughness, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Normal Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Time, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=Glass Upper Bounds, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Glass Opacity, Group=None }
+    CollectedScalarParameters[11] = { Value=0.75, Name=Glass Opacity Solo, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Glass Tint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Glare Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
