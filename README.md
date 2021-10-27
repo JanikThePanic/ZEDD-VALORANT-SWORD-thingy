@@ -1,2 +1,3 @@
 # ZEDD-VALORANT-SWORD-thingy
-my buddy wanted a zedd thingy so i am gonna make one
+my buddy said a zedd sword (the in-game VALORANT skin) irl would be cool
+so imma make one
